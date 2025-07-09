@@ -3,13 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>[Kevin] | Personal Website</title>
+  <title>Docs | Zhaoxi Liu (Kevin)</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="header">
-    <h1>Zhaoxi Liu (Kevin)</h1>
-    <p>Software Engineer</p>
+    <h1>Docs & Notes</h1>
   </header>
   <div class="layout">
     <div class="sidebar">
@@ -22,7 +21,6 @@
               <button class="fold-toggle" aria-label="Toggle Projects">&#9654;</button>
             </div>
             <ul class="fold-content">
-              <!-- Only child pages, not the index -->
               <li><a href="#project1">Project 1</a></li>
               <li><a href="#project2">Project 2</a></li>
             </ul>
@@ -43,22 +41,13 @@
     </div>
     <div class="content">
       <main>
-        <section id="about">
-          <h2>About Me</h2>
-          <p>Write a brief introduction about yourself, your interests, and your background here.</p>
-        </section>
-        <section id="projects">
-          <h2>Projects</h2>
-          <ul>
-            <li><strong>Project One:</strong> Short description of your project.</li>
-            <li><strong>Project Two:</strong> Short description of another project.</li>
-          </ul>
-        </section>
-        <section id="contact">
-          <h2>Contact</h2>
-          <p>Email: <a href="liuzhaoxi1205@gmail.com">liuzhaoxi1205@gmail.com</a></p>
-          <p>GitHub: <a href="https://github.com/yourusername" target="_blank">yourusername</a></p>
-        </section>
+        <h2>My Notes</h2>
+        <ul>
+          <li>Note 1: ...</li>
+          <li>Note 2: ...</li>
+          <li><a href="customizing-git-bash.html">Customizing Git Bash</a></li>
+          <!-- Add more notes here -->
+        </ul>
       </main>
       <footer>
         &copy; 2025 Zhaoxi Liu. All Rights Reserved.
@@ -66,7 +55,6 @@
     </div>
   </div>
   <script>
-    // Sidebar folding logic for new structure
     document.querySelectorAll('.fold-toggle').forEach(function(toggle) {
       toggle.addEventListener('click', function(e) {
         e.stopPropagation();

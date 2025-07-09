@@ -3,13 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>[Kevin] | Personal Website</title>
+  <title>Customizing Git Bash | Zhaoxi Liu (Kevin)</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="header">
-    <h1>Zhaoxi Liu (Kevin)</h1>
-    <p>Software Engineer</p>
+    <h1>Customizing Git Bash</h1>
   </header>
   <div class="layout">
     <div class="sidebar">
@@ -22,7 +21,6 @@
               <button class="fold-toggle" aria-label="Toggle Projects">&#9654;</button>
             </div>
             <ul class="fold-content">
-              <!-- Only child pages, not the index -->
               <li><a href="#project1">Project 1</a></li>
               <li><a href="#project2">Project 2</a></li>
             </ul>
@@ -43,22 +41,30 @@
     </div>
     <div class="content">
       <main>
-        <section id="about">
-          <h2>About Me</h2>
-          <p>Write a brief introduction about yourself, your interests, and your background here.</p>
-        </section>
-        <section id="projects">
-          <h2>Projects</h2>
-          <ul>
-            <li><strong>Project One:</strong> Short description of your project.</li>
-            <li><strong>Project Two:</strong> Short description of another project.</li>
-          </ul>
-        </section>
-        <section id="contact">
-          <h2>Contact</h2>
-          <p>Email: <a href="liuzhaoxi1205@gmail.com">liuzhaoxi1205@gmail.com</a></p>
-          <p>GitHub: <a href="https://github.com/yourusername" target="_blank">yourusername</a></p>
-        </section>
+        <h2>How to Customize Git Bash</h2>
+        <figure style="margin:0 0 1.5rem 0;">
+          <img src="images/customized_gitbash.png" 
+              alt="Preview of Customized Git Bash" 
+              style="max-width:100%;border-radius:8px;box-shadow:0 2px 8px rgba(41,74,99,0.08);">
+          <figcaption style="text-align:center;color:#6ba1c5;font-size:0.85rem;margin-top:0.5rem;">Final result</figcaption>
+        </figure>
+        <ul>
+          <li>Change prompt appearance by editing <code>~/.bashrc</code> or <code>~/.bash_profile</code>.</li>
+          <li>Add useful aliases, e.g. <code>alias gs='git status'</code>.</li>
+          <li>Customize colors and fonts in Git Bash options (right-click title bar &rarr; Options).</li>
+          <li>Install additional tools (e.g. <code>nano</code>, <code>vim</code>, <code>curl</code>).</li>
+          <li>Set environment variables for your workflow.</li>
+        </ul>
+        <h3>Example: Adding an Alias</h3>
+        <pre>
+echo "alias gs='git status'" >> ~/.bashrc
+source ~/.bashrc
+        </pre>
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="https://gitforwindows.org/" target="_blank">Git for Windows</a></li>
+          <li><a href="https://www.gnu.org/software/bash/manual/" target="_blank">Bash Manual</a></li>
+        </ul>
       </main>
       <footer>
         &copy; 2025 Zhaoxi Liu. All Rights Reserved.
@@ -66,7 +72,6 @@
     </div>
   </div>
   <script>
-    // Sidebar folding logic for new structure
     document.querySelectorAll('.fold-toggle').forEach(function(toggle) {
       toggle.addEventListener('click', function(e) {
         e.stopPropagation();

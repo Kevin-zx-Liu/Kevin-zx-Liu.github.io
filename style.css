@@ -1,0 +1,186 @@
+/*
+  Harmonized color palette inspired by Material Design and Tailwind CSS
+  Primary: #2563eb (blue-600)
+  Accent: #60a5fa (blue-400)
+  Background: #f6f8fa
+  Sidebar: #1e293b (slate-800)
+  Card: #fff
+  Text: #222, #334155 (slate-700)
+  Border: #e5e7eb (gray-200)
+*/
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f7fb; /* Tailwind 50 */
+  color: #263f54; /* Tailwind 900 for main text */
+  min-height: 100vh;
+}
+.header {
+  width: 100%;
+  background: linear-gradient(90deg, #9fc2da 60%, #6ba1c5 100%); /* 300 to 400 */
+  color: #192938; /* Tailwind 950 for header text */
+  padding: 2rem 1rem 1.2rem 1rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(37,99,235,0.08);
+}
+.layout {
+  display: flex;
+}
+.sidebar {
+  width: 180px;
+  background: #e8eff6; /* Tailwind 100, lighter and less obvious */
+  min-height: 100vh;
+  padding-top: 1.2rem;
+  align-self: flex-start;
+  box-shadow: 1px 0 4px rgba(30,41,59,0.03);
+  border-radius: 0 0 8px 0;
+  border-right: 1px solid #ccddeb; /* subtle border */
+}
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sidebar nav ul li {
+  margin: 0;
+}
+.sidebar nav ul li a,
+.foldable > .fold-toggle {
+  color: #294a63; /* Tailwind 800 for sidebar text */
+  background: none;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  display: block;
+  border-left: 4px solid transparent;
+  transition: background 0.2s, border-color 0.2s, color 0.2s;
+  font-size: 1.08rem;
+  letter-spacing: 0.02em;
+}
+.sidebar nav ul li a:hover, .sidebar nav ul li a.active,
+.foldable > .fold-toggle:hover {
+  background: #ccddeb; /* Tailwind 200, subtle hover */
+  color: #2d5777;
+  border-left: 4px solid #6ba1c5; /* Tailwind 400 */
+}
+.content {
+  width: 100%;
+  min-height: calc(100vh - 110px);
+  display: flex;
+  flex-direction: column;
+  color: #263f54; /* Tailwind 900 for content text */
+}
+main {
+  flex: 1;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem 2rem 1.5rem 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(30,41,59,0.06);
+  border: 1px solid #ccddeb; /* Tailwind 200 */
+  color: #263f54; /* Tailwind 900 for main content */
+}
+main, main section, main p, main li, main h3 {
+  color: #263f54;
+}
+h2 {
+  color: #4682a9; /* Tailwind 500 for headings */
+  margin-top: 0;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #e8eff6; /* Tailwind 100 */
+  color: #294a63; /* Tailwind 800 for footer text */
+  border-top: 1px solid #ccddeb; /* Tailwind 200 */
+  font-size: 0.98rem;
+  border-radius: 0 0 12px 12px;
+}
+a {
+  color: #2d5777; /* Tailwind 700 for links */
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #6ba1c5; /* Tailwind 400 for link hover */
+  text-decoration: underline;
+}
+ul {
+  padding-left: 1.2em;
+}
+pre {
+  background: #e8eff6; /* Tailwind 100 */
+  padding: 1em;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-size: 1em;
+  border: 1px solid #ccddeb; /* Tailwind 200 */
+}
+
+/* Foldable sidebar styles - harmonized */
+.foldable > .fold-toggle {
+  cursor: pointer;
+  display: block;
+  padding: 1rem 2rem;
+  color: #294a63; /* Tailwind 800 */
+  font-weight: 500;
+  user-select: none;
+  background: none;
+  border-left: 4px solid transparent;
+  transition: background 0.2s, border-color 0.2s, color 0.2s;
+}
+.foldable > .fold-toggle:hover {
+  background: #ccddeb; /* Tailwind 200 */
+  color: #2d5777;
+  border-left: 4px solid #6ba1c5; /* Tailwind 400 */
+}
+.fold-content {
+  display: none;
+  background: #e8eff6; /* Tailwind 100 */
+  padding-left: 0;
+}
+.fold-content li a {
+  padding-left: 2.2rem;
+  font-weight: 400;
+  font-size: 0.98rem;
+  color: #294a63;
+}
+.fold-content li a:hover {
+  color: #2d5777;
+  background: #ccddeb;
+}
+.fold-link-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.2rem;
+}
+.fold-link-row a {
+  flex: 1;
+  color: #294a63;
+  font-weight: 500;
+  padding: 1rem 1rem 1rem 2rem;
+  text-decoration: none;
+  border-left: 4px solid transparent;
+  transition: background 0.2s, border-color 0.2s, color 0.2s;
+}
+.fold-link-row a:hover, .fold-link-row a.active {
+  background: #ccddeb;
+  color: #2d5777;
+  border-left: 4px solid #6ba1c5;
+}
+.fold-toggle {
+  background: none;
+  border: none;
+  color: #294a63;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 1rem 1.2rem 1rem 0.5rem;
+  transition: color 0.2s;
+  outline: none;
+}
+.fold-toggle:hover {
+  color: #2d5777;
+}
