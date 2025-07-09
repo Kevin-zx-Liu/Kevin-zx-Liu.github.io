@@ -1,1 +1,3 @@
 # Kevin-zx-Liu.github.io
+
+This repo is Kevin's personal knowledge database, study notes, project plans ...
