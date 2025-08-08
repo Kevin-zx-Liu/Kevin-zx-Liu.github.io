@@ -4,4 +4,3 @@ title: "Experience"
 author_profile: true
 ---
 
-## Experience
