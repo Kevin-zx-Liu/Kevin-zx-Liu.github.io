@@ -14,8 +14,8 @@ main:
   - title: "CV"
     url: /cv/
 
-  - title: "Experience"
-    url: /experience/ 
+  - title: "Journey"
+    url: /journey/ 
       
   # - title: "CV"
   #   url: /cv-json/
