@@ -10,13 +10,13 @@
 main:
   - title: "About"
     url: /about/
-
-  - title: "Experience"
-    url: /experience/    
     
   - title: "CV"
     url: /cv/
-    
+
+  - title: "Experience"
+    url: /experience/ 
+      
   # - title: "CV"
   #   url: /cv-json/
     
