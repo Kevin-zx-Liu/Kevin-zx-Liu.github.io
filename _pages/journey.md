@@ -4,8 +4,7 @@ title: "Journey"
 author_profile: true
 ---
  
-> *Life is a journey,*
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*not a destination*
+> *Life is a journey, not a destination*
 
 ### Professional Career
 
