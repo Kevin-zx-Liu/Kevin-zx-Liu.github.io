@@ -11,8 +11,8 @@ main:
   - title: "About"
     url: /about/
     
-  - title: "CV"
-    url: /cv/
+  # - title: "CV"
+  #   url: /cv/
 
   - title: "Journey"
     url: /journey/ 
