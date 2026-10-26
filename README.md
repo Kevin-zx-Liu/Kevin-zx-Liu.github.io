@@ -1,6 +1,6 @@
 # Kevin-zx-Liu.github.io
 
-Personal portfolio website for **Zhaoxi (Kevin) Liu** — software engineer passionate about technology, Data & AI.
+Personal portfolio website for **Zhaoxi (Kevin) Liu** — AI engineer at Nexperia, working on Data & AI for semiconductor manufacturing.
 
 🔗 **Live site:** [kevin-zx-liu.github.io](https://kevin-zx-liu.github.io/)
 
