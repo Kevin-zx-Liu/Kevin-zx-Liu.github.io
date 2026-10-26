@@ -1,6 +1,7 @@
 ---
 permalink: /projects/
 title: "Projects"
+description: "Selected projects by Zhaoxi (Kevin) Liu in AI, machine learning and large-scale data processing."
 author_profile: true
 ---
 ## Large scale data process with Apache Spark and AWS
