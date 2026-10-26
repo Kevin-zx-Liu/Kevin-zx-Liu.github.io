@@ -111,7 +111,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : true      # change to true to hide the RSS feed in the footer
+  hide                   : true      # true hides the RSS feed link in the footer
   path                   : # blank (default) uses feed.xml
 
 
@@ -167,6 +167,7 @@ exclude:
   - Capfile
   - config
   - Dockerfile
+  - docker-compose.yaml
   - Gemfile
   - Gruntfile.js
   - gulpfile.js
