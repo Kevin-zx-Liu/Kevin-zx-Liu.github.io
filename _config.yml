@@ -13,7 +13,7 @@ title                    : "Zhaoxi Liu"
 title_separator          : "-"
 name                     : &name "Zhaoxi Liu"
 description              : &description "Zhaoxi (Kevin) Liu, AI Engineer at Nexperia"
-url                      : https://kevin-zx-liu.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+url                      : https://kevin-zx-liu.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Kevin-zx-Liu/Kevin-zx-Liu.github.io"
 
@@ -23,7 +23,7 @@ repository               : "Kevin-zx-Liu/Kevin-zx-Liu.github.io"
 author:
   # Biographic information
   avatar           : "profile_avatar.JPG"
-  name             : "Zhaoxi(Kevin) Liu"
+  name             : "Zhaoxi (Kevin) Liu"
   pronouns         : # example: "she/her"  
   bio              : "AI Engineer at Nexperia · Data & AI for semiconductor manufacturing"
   location         : #

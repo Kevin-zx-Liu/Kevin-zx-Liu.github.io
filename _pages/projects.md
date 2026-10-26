@@ -14,8 +14,8 @@ Developed 2 Android applications for indoor localization and activity detection:
 
 ![Indoor localization](../images/SmartPhoneSensing_GUI.jpg)
 
-• The first application is built on a statistical model with Wi-Fi signal strength distribution data from multiple access points to enable localization by matching with current input data
-• The second application collected and processed data from the gyroscope and accelerometer to detect the user’s direction and current activity. Plus it can detect whether the user is moving upstairs or downstairs based on Google location service API
+- The first application is built on a statistical model with Wi-Fi signal strength distribution data from multiple access points to enable localization by matching with current input data
+- The second application collected and processed data from the gyroscope and accelerometer to detect the user’s direction and current activity. Plus it can detect whether the user is moving upstairs or downstairs based on Google location service API
 
 ## Thesis project: Unsupervised Wafer Map Failure Pattern Recognition with Contrastive Learning
 
